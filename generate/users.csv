@@ -1,0 +1,25 @@
+uid,uname,fullname,groups,email,valid
+2000,acopar,"Andrej Copar","docker",andrej.copar@fri.uni-lj.si,
+2001,tomazc,"Tomaz Curk","docker",tomaz.curk@fri.uni-lj.si,
+2002,niko,"Niko Colneric","docker",niko.colneric@fri.uni-lj.si,
+2003,thocevar,"Tomaz Hocevar",,tomaz.hocevar@fri.uni-lj.si,
+2004,bzupan,"Blaz Zupan",,blaz.zupan@fri.uni-lj.si,
+2005,martins,"Martin Strazar",,martin.strazar@fri.uni-lj.si,
+2006,rgomiscek,"Rok Gomiscek",,rok.gomiscek@fri.uni-lj.si,
+2007,anze,"Anze Staric",,anze.staric@fri.uni-lj.si,
+2008,lan,"Lan Zagar",,lan.zagar@fri.uni-lj.si,
+2009,mtoplak,"Marko Toplak",,marko.toplak@fri.uni-lj.si,
+2010,jkernc,"Jernej Kernc",,kerncece@gmail.com,
+2011,apretnar,"Ajda Pretnar",,ajda.pretnar@fri.uni-lj.si,
+2012,primoz,"Primoz Godec","docker",p.godec9@gmail.com,2017-12-30
+2020,teja,"Teja Rostan",,,2017-06-30
+2021,nejc,"Nejc Ilenic","kaggle,docker",,2017-12-30
+2022,jgrabnar,"Jernej Grabnar","kaggle,docker",,2017-12-30
+2023,ppolicar,"Pavlin Policar","kaggle,docker",,2017-12-30
+2024,tsmole,"T smole","kaggle,docker",,2017-12-30
+2025,ajugo,"Andrej Jugo","kaggle,docker",,2017-12-30
+2026,adolenc,"A dolenc","kaggle,docker",,2017-12-30
+2027,jsteblaj,"Jurij Steblaj","kaggle,docker",,2017-12-30
+2028,nina,"Nina Mrzelj",,,2017-06-30
+2030,matej,"Matej Kopar",,matej@kopar.si,2017-06-30
+2031,tomi,"Tomislav Slijepcevic",,ts2287@student.uni-lj.si,2017-10-30

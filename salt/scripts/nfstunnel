@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for port in 2049 111 4000 4002 30000; do
+    /usr/bin/autossh -M 0 -Nf -q -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -L $port:192.168.245.19:$port root@saltdrive
+done
+
+mount -t nfs -o port=2049 localhost:/NFS_home /nfs/home
