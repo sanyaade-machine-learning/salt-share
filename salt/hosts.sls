@@ -1,8 +1,3 @@
-salt in hosts:
-  host.present:
-    - name: salt
-    - ip: 192.168.27.74
-
 saltdrive in hosts:
   host.present:
     - name: saltdrive

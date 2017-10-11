@@ -46,6 +46,11 @@ users:
   martins:
     fullname: Martin Strazar
     uid: 2005
+  mpancur:
+    fullname: Matjaz Pancur
+    groups:
+    - docker
+    uid: 2013
   mtoplak:
     fullname: Marko Toplak
     uid: 2009

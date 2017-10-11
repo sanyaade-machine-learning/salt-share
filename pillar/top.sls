@@ -3,7 +3,7 @@ base:
     - groups
     - users
     - firewall
-  'd3.maas.garaza.io':
+  'd3':
     - users.d3
   'd4.maas.garaza.io':
     - users.d4

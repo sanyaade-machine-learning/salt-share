@@ -3,45 +3,58 @@ base:
      - common
      - hosts
      - firewall 
-  'd3.maas.garaza.io':
+  'proteus':
      - common
      - nfs
      - groups
      - users
      - hosts
+  'titan':
+     - common
+  'atlas':
+     - common
+  'ocean':
+     - common
+  'd3':
+     - common
+     - groups
+     - users
+     - hosts
      - sudo
-     - python
   'd4.maas.garaza.io':
      - common
-     - nfs
-     - groups
-     - users
-     - hosts
-     - sudo
-     - python
-  'd5.maas.garaza.io':
-     - common
-     - nfs
+     - fstab
      - groups
      - users
      - hosts
      - sudo
      - python
      - firewall
+  'd5.maas.garaza.io':
+     - common
+     - fstab
+     - groups
+     - users
+     - hosts
+     - sudo
+     - python
+     - firewall
+     - docker
   'd9.maas.garaza.io':
      - common
-     - nfs
+     - fstab
      - groups
      - users
      - hosts
      - sudo
      - python
+     - firewall
   'd12.maas.garaza.io':
      - common
-     - nfs
+     - fstab
      - groups
      - users
      - hosts
      - sudo
      - python
-
+     - firewall
