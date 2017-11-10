@@ -23,3 +23,5 @@ base:
     - users.ocean
   'saltdrive':
     - users.saltdrive
+  'ialog':
+    - users.ialog

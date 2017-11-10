@@ -4,3 +4,5 @@ python-pip:
 virtualenv:
   pkg.installed
 
+python-tk:
+  pkg.installed

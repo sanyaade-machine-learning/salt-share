@@ -19,17 +19,16 @@ base:
      - common
      - groups
      - users
-     - hosts
      - sudo
   'd4.maas.garaza.io':
      - common
-     - fstab
      - groups
      - users
      - hosts
      - sudo
      - python
      - firewall
+     - docker
   'd5.maas.garaza.io':
      - common
      - fstab
@@ -49,6 +48,7 @@ base:
      - sudo
      - python
      - firewall
+     - docker
   'd12.maas.garaza.io':
      - common
      - fstab
@@ -57,4 +57,21 @@ base:
      - hosts
      - sudo
      - python
+     - firewall
+     - docker
+  'ialog':
+     - groups
+     - users
+     - sudo
+  'mac1':
+     - firewall
+  'mac2':
+     - firewall
+  'mac3':
+     - firewall
+  'mac4':
+     - firewall
+  'mac5':
+     - firewall
+  'mac6':
      - firewall

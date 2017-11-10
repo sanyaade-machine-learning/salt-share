@@ -4,6 +4,7 @@ server_users:
 - thocevar
 - bzupan
 - martins
+- primoz
 sudo_users:
 - acopar
 - tomazc

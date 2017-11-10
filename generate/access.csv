@@ -8,7 +8,6 @@ rgomiscek,atlas,ocean
 anze,d3
 jkernc,proteus
 apretnar,proteus
-teja,titan
 nejc,atlas,ocean,hyperion
 jgrabnar,atlas,ocean
 ppolicar,atlas,ocean
@@ -16,8 +15,5 @@ tsmole,atlas,ocean
 ajugo,atlas,ocean
 adolenc,atlas,ocean
 jsteblaj,atlas,ocean
-nina,titan
-matej,titan
-tomi,titan
-primoz,atlas,ocean
-mpancur,d3,hyperion
+primoz,atlas,ocean,d3,d4
+mpancur,d3,hyperion,ialog

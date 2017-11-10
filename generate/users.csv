@@ -4,7 +4,7 @@ uid,uname,fullname,groups,email,valid
 2002,niko,"Niko Colneric","docker",niko.colneric@fri.uni-lj.si,
 2003,thocevar,"Tomaz Hocevar",,tomaz.hocevar@fri.uni-lj.si,
 2004,bzupan,"Blaz Zupan",,blaz.zupan@fri.uni-lj.si,
-2005,martins,"Martin Strazar",,martin.strazar@fri.uni-lj.si,
+2005,martins,"Martin Strazar","docker",martin.strazar@fri.uni-lj.si,
 2006,rgomiscek,"Rok Gomiscek",,rok.gomiscek@fri.uni-lj.si,
 2007,anze,"Anze Staric",,anze.staric@fri.uni-lj.si,
 2008,lan,"Lan Zagar",,lan.zagar@fri.uni-lj.si,
@@ -24,3 +24,4 @@ uid,uname,fullname,groups,email,valid
 2028,nina,"Nina Mrzelj",,,2017-06-30
 2030,matej,"Matej Kopar",,matej@kopar.si,2017-06-30
 2031,tomi,"Tomislav Slijepcevic",,ts2287@student.uni-lj.si,2017-10-30
+2032,mcordioli,"Mattia Cordioli",,mattia.cordioli01@universitadipavia.it,2018-06-30

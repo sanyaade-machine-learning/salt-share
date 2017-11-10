@@ -45,7 +45,12 @@ users:
     uid: 2008
   martins:
     fullname: Martin Strazar
+    groups:
+    - docker
     uid: 2005
+  mcordioli:
+    fullname: Mattia Cordioli
+    uid: 2032
   mpancur:
     fullname: Matjaz Pancur
     groups:
@@ -87,9 +92,6 @@ users:
     groups:
     - docker
     uid: 2001
-  tomi:
-    fullname: Tomislav Slijepcevic
-    uid: 2031
   tsmole:
     fullname: T smole
     groups:

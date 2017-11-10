@@ -1,5 +1,4 @@
 server_users:
-- acopar
-- niko
+- mpancur
 sudo_users:
-- acopar
+- mpancur
