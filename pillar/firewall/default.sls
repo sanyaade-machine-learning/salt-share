@@ -1,2 +1,2 @@
-default_iptables:
+iptables_rules:
   "default.iptables"

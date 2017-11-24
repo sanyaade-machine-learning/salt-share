@@ -1,4 +1,4 @@
-{% set rules = pillar.get('default_iptables') %}
+{% set rules = pillar.get('iptables_rules') %}
 {% if rules %}
 copy_iptables:
   file.managed:
