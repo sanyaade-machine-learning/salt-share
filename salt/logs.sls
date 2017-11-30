@@ -1,8 +1,5 @@
-echo "kernel.printk = 3 4 1 3" >> /etc/sysctl.conf:
-  cmd.run
-
-echo "ForwardtoConsole=no" >> /etc/systemd/journald.conf:
-  cmd.run
-
-echo "TTYPath=/dev/null" >> /etc/systemd/journald.conf:
-  cmd.run
+copy_journald:
+  file.managed:
+    - name: /etc/systemd/journald.conf
+    - source: salt://config/journald.conf
+    - mode: 644

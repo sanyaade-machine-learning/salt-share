@@ -1,7 +1,7 @@
 saltdrive in hosts:
   host.present:
     - name: saltdrive
-    - ip: 193.2.72.34
+    - ip: 192.168.27.74
 
 atlas in hosts:
   host.present:
@@ -22,4 +22,14 @@ proteus in hosts:
   host.present:
     - name: proteus
     - ip: 192.168.27.60
+
+iasalt in hosts:
+  host.present:
+    - name: iasalt
+    - ip: 192.168.245.34
+
+d3 in hosts:
+  host.present:
+    - name: d3
+    - ip: 192.168.245.10
 

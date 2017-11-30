@@ -21,3 +21,4 @@ sshfs:
 
 include:
   - logs 
+  - ssh

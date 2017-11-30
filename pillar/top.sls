@@ -21,11 +21,13 @@ base:
     - users.proteus
   'titan':
     - users.titan
+    - firewall.default
   'atlas':
     - users.atlas
     - firewall.default
   'ocean':
     - users.ocean
+    - firewall.default
   'saltdrive':
     - users.saltdrive
   'ialog':

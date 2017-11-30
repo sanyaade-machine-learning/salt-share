@@ -3,5 +3,6 @@ server_users:
 - niko
 - nejc
 - primoz
+- mcordioli
 sudo_users:
 - acopar
