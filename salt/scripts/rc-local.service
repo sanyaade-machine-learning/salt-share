@@ -6,7 +6,7 @@ ConditionPathExists=/etc/rc.local
 Type=forking
 ExecStart=/etc/rc.local start
 TimeoutSec=0
-StandardOutput=tty
+StandardOutput=null
 RemainAfterExit=yes
 SysVStartPriority=99
 

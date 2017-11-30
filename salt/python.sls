@@ -6,3 +6,9 @@ virtualenv:
 
 python-tk:
   pkg.installed
+
+python-dev:
+  pkg.installed
+
+python3-dev:
+  pkg.installed

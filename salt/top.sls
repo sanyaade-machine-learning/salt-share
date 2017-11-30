@@ -3,6 +3,8 @@ base:
      - common
      - hosts
      - firewall 
+     - groups
+     - users
   'proteus':
      - common
      - groups
@@ -14,6 +16,7 @@ base:
   'titan':
      - common
      - devel
+     - fstab
      - groups
      - users
      - hosts
@@ -22,12 +25,22 @@ base:
      - firewall
      - docker
      - cuda
+     - cudnn
   'atlas':
      - common
      - devel
   'ocean':
      - common
      - devel
+     - fstab
+     - groups
+     - users
+     - hosts
+     - sudo
+     - python
+     - firewall
+     - cuda
+     - cudnn
   'd3':
      - common
      - groups

@@ -19,3 +19,5 @@ autossh:
 sshfs:
   pkg.installed
 
+include:
+  - logs 

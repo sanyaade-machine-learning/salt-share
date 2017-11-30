@@ -11,5 +11,8 @@
 #
 # By default this script does nothing.
 
-/usr/local/bin/nfstunnel
+#/usr/local/bin/nfstunnel
+# Niko: run nvidia-smi in background to speed it up.
+# https://devtalk.nvidia.com/default/topic/482848/multiple-gpus-listing-devices-very-slow/
+nvidia-smi -l --id=0 &> /dev/null &
 exit 0

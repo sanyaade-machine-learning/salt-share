@@ -6,15 +6,20 @@ saltdrive in hosts:
 atlas in hosts:
   host.present:
     - name: atlas
-    - ip: 193.2.72.59
+    - ip: 192.168.27.61
+
+ocean in hosts:
+  host.present:
+    - name: ocean
+    - ip: 192.168.27.62
 
 titan in hosts:
   host.present:
     - name: titan
-    - ip: 193.2.72.58
+    - ip: 192.168.27.63
 
 proteus in hosts:
   host.present:
     - name: proteus
-    - ip: 193.2.72.50
+    - ip: 192.168.27.60
 
