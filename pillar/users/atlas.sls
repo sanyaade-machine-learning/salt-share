@@ -3,6 +3,7 @@ server_users:
 - niko
 - thocevar
 - bzupan
+- martins
 - rgomiscek
 - nejc
 - jgrabnar
@@ -12,6 +13,8 @@ server_users:
 - adolenc
 - jsteblaj
 - primoz
+- mcordioli
+- tomi
 sudo_users:
 - acopar
 - niko

@@ -7,6 +7,8 @@ base:
      - users
   'proteus':
      - common
+     - devel
+     - fstab
      - groups
      - users
      - hosts
@@ -25,10 +27,15 @@ base:
      - firewall
      - docker
      - cuda
-     - cudnn
+#     - cudnn
   'atlas':
      - common
      - devel
+     - fstab
+     - groups
+     - users
+     - python
+     - sudo
   'ocean':
      - common
      - devel
@@ -39,8 +46,7 @@ base:
      - sudo
      - python
      - firewall
-     - cuda
-     - cudnn
+     - docker
   'd3':
      - common
      - groups

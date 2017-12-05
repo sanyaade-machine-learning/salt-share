@@ -4,5 +4,6 @@ server_users:
 - nejc
 - primoz
 - mcordioli
+- tomi
 sudo_users:
 - acopar

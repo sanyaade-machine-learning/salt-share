@@ -37,9 +37,19 @@
     - user: {{ name }}
     - group: {{ name }}
     - mode: 700
+/nfs/scratch/{{ name }}:
+  file.directory:
+    - user: {{ name }}
+    - group: {{ name }}
+    - mode: 700
 /home/{{ name }}/nfs:
   file.symlink:
     - target: /nfs/home/{{ name }}
+    - user: {{ name }}
+    - group: {{ name }}
+/home/{{ name }}/scratch:
+  file.symlink:
+    - target: /nfs/scratch/{{ name }}
     - user: {{ name }}
     - group: {{ name }}
 {% if 'key.pub' not in user or user['key.pub'] == True %}

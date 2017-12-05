@@ -19,6 +19,9 @@ autossh:
 sshfs:
   pkg.installed
 
+lsof:
+  pkg.installed
+
 include:
   - logs 
   - ssh

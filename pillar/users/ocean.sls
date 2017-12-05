@@ -1,6 +1,7 @@
 server_users:
 - acopar
 - niko
+- martins
 - rgomiscek
 - nejc
 - primoz

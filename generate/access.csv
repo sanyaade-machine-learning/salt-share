@@ -3,7 +3,7 @@ tomazc,d3,d4,d5,d9,file
 niko,atlas,ocean,titan
 thocevar,atlas,d4
 bzupan,atlas,file,d4
-martins,d4,d5,d9,d12
+martins,d4,d5,d9,d12,atlas,ocean
 rgomiscek,atlas,ocean
 anze,d3
 nejc,titan,atlas,ocean,hyperion
@@ -15,4 +15,5 @@ adolenc,atlas
 jsteblaj,atlas
 primoz,titan,atlas,ocean,d3,d4,mac,ialog
 mpancur,d3,hyperion,ialog,mac
-mcordioli,titan
+mcordioli,titan,atlas
+tomi,titan,atlas
