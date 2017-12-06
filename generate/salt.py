@@ -29,20 +29,6 @@ def read_config(filename):
     
     return all_data
     
-def read_config(filename):
-    fp = open(filename)
-    reader = csv.reader(fp, delimiter=",")
-    header = reader.next()
-    
-    all_data = []
-    for line in reader:
-        data = {}
-        for i, key in enumerate(header):
-            data[key] = line[i]
-        all_data.append(data)
-    
-    return all_data
-
 def read_access(filename):
     fp = open(filename)
     reader = csv.reader(fp, delimiter=",")
@@ -51,6 +37,18 @@ def read_access(filename):
     for line in reader:
         data = {'uname': line[0]}
         data['servers'] = line[1:]
+        all_data.append(data)
+    
+    return all_data
+
+def read_nodes(filename):
+    fp = open(filename)
+    reader = csv.reader(fp, delimiter=",")
+    
+    all_data = []
+    for line in reader:
+        data = {'node_tag': line[0]}
+        data['nodes'] = line[1:]
         all_data.append(data)
     
     return all_data
@@ -93,6 +91,18 @@ def parse_access(access):
             all_servers[s].append(uname)
     return all_servers
 
+def parse_nodes(nodetags):
+    dct = {}
+    for a in nodetags:
+        gname = a['node_tag']
+        nodes = a['nodes']
+        print gname, nodes
+        for node in nodes:
+            if node not in dct:
+                dct[node] = []
+            dct[node].append(gname)
+    return dct
+
 def store_yaml(filename, data):
     ensure_dir(filename)
     with open(filename, 'w') as outfile:
@@ -114,4 +124,8 @@ if __name__ == "__main__":
             store_yaml('../pillar/users/%s.sls' % server, {'server_users': server_access[server], 'sudo_users': sudo_access[server]})
         else:
             store_yaml('../pillar/users/%s.sls' % server, {'server_users': server_access[server]})
-    
+    print "Nodes:"
+    data = read_nodes("nodes.csv")
+    nodes = parse_nodes(data)
+    for server in nodes:
+        store_yaml('../pillar/nodes/%s.sls' % server, {'node_tags': nodes[server]})

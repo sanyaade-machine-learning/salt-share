@@ -96,6 +96,12 @@ base:
      - groups
      - users
      - sudo
+  'iajump':
+     - common
+     - groups
+     - users
+     - sudo
+     - hosts
   'mac1':
      - groups
      - users

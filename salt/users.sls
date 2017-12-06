@@ -1,5 +1,6 @@
 {% set users = pillar.get('server_users') %}
 {% set admins = pillar.get('sudo_users') %}
+{% set tags = pillar.get('node_tags') %}
 {% for name, user in pillar['users'].iteritems() %}
 {% if name in users %}
 {{ name }}:
@@ -32,26 +33,28 @@
     - recurse:
       - user
       - group
-/nfs/home/{{ name }}:
-  file.directory:
-    - user: {{ name }}
-    - group: {{ name }}
-    - mode: 700
-/nfs/scratch/{{ name }}:
-  file.directory:
-    - user: {{ name }}
-    - group: {{ name }}
-    - mode: 700
-/home/{{ name }}/nfs:
-  file.symlink:
-    - target: /nfs/home/{{ name }}
-    - user: {{ name }}
-    - group: {{ name }}
-/home/{{ name }}/scratch:
-  file.symlink:
-    - target: /nfs/scratch/{{ name }}
-    - user: {{ name }}
-    - group: {{ name }}
+{% if 'nfs' in tags %}
+  /nfs/home/{{ name }}:
+    file.directory:
+      - user: {{ name }}
+      - group: {{ name }}
+      - mode: 700
+  /nfs/scratch/{{ name }}:
+    file.directory:
+      - user: {{ name }}
+      - group: {{ name }}
+      - mode: 700
+  /home/{{ name }}/nfs:
+    file.symlink:
+      - target: /nfs/home/{{ name }}
+      - user: {{ name }}
+      - group: {{ name }}
+  /home/{{ name }}/scratch:
+    file.symlink:
+      - target: /nfs/scratch/{{ name }}
+      - user: {{ name }}
+      - group: {{ name }}
+{% endif %}
 {% if 'key.pub' not in user or user['key.pub'] == True %}
 {{ name }}_key.pub:
   ssh_auth:

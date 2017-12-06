@@ -1,11 +1,10 @@
-acopar,atlas,hyperion,ocean,titan,proteus,d3,d4,d5,d9,d12,file,saltdrive,mac,ialog
+acopar,atlas,hyperion,ocean,titan,proteus,d3,d4,d5,d9,d12,file,saltdrive,mac,ialog,iajump
 tomazc,d3,d4,d5,d9,file
 niko,atlas,ocean,titan
 thocevar,atlas,d4
 bzupan,atlas,file,d4
-martins,d4,d5,d9,d12,atlas,ocean
+martins,d4,d5,d12,atlas,ocean
 rgomiscek,atlas,ocean
-anze,d3
 nejc,titan,atlas,ocean,hyperion
 jgrabnar,atlas
 ppolicar,atlas
@@ -13,7 +12,7 @@ tsmole,atlas
 ajugo,atlas
 adolenc,atlas
 jsteblaj,atlas
-primoz,titan,atlas,ocean,d3,d4,mac,ialog
-mpancur,d3,hyperion,ialog,mac
+primoz,titan,atlas,ocean,d3,d4,d9,mac,ialog,iajump
+mpancur,d3,d9,hyperion,ialog,mac,iajump
 mcordioli,titan,atlas
 tomi,titan,atlas

@@ -1,7 +1,8 @@
 server_users:
 - acopar
 - tomazc
-- martins
+- primoz
+- mpancur
 sudo_users:
 - acopar
 - tomazc
