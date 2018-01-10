@@ -13,6 +13,7 @@ base:
      - users
      - hosts
      - python
+     - firewall
      - docker
      - sudo
   'titan':

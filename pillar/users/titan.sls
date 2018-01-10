@@ -2,6 +2,7 @@ server_users:
 - acopar
 - niko
 - nejc
+- ppolicar
 - primoz
 - mcordioli
 - tomi

@@ -12,3 +12,6 @@ python-dev:
 
 python3-dev:
   pkg.installed
+
+python3-tk:
+  pkg.installed

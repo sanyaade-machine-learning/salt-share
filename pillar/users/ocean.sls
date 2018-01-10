@@ -4,6 +4,7 @@ server_users:
 - martins
 - rgomiscek
 - nejc
+- ppolicar
 - primoz
 sudo_users:
 - acopar

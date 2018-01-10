@@ -25,6 +25,7 @@ base:
   'proteus':
     - users.proteus
     - nodes.proteus
+    - firewall.default
   'titan':
     - users.titan
     - firewall.default

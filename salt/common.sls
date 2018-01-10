@@ -22,6 +22,12 @@ sshfs:
 lsof:
   pkg.installed
 
+mercurial:
+  pkg.installed
+
+unzip:
+  pkg.installed
+
 include:
   - logs 
   - ssh
