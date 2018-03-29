@@ -15,6 +15,7 @@ server_users:
 - primoz
 - mcordioli
 - tomi
+- aarmacki
 sudo_users:
 - acopar
 - niko

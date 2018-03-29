@@ -3,6 +3,7 @@ server_users:
 - ppolicar
 - mcordioli
 - jkernc
+- apretnar
 sudo_users:
 - acopar
 - apretnar

@@ -8,3 +8,4 @@ sudo_users:
 - tomazc
 - anze
 - mpancur
+- primoz

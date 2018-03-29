@@ -34,10 +34,42 @@ base:
     - users.atlas
     - firewall.default
     - nodes.atlas
-  'ocean':
+  'ocean.maas.garaza.io':
     - users.ocean
     - firewall.default
     - nodes.ocean
+  'o1.maas.garaza.io':
+    - users.o1
+    - firewall.gpu
+    - nodes.o1
+  'o2.maas.garaza.io':
+    - users.o2
+    - firewall.gpu
+    - nodes.o2
+  'o3.maas.garaza.io':
+    - users.o3
+    - firewall.gpu
+    - nodes.o3
+  'o4.maas.garaza.io':
+    - users.o4
+    - firewall.gpu
+    - nodes.o4
+  'o5.maas.garaza.io':
+    - users.o5
+    - firewall.gpu
+    - nodes.o5
+  'o6.maas.garaza.io':
+    - users.o6
+    - firewall.gpu
+    - nodes.o6
+  'o7.maas.garaza.io':
+    - users.o7
+    - firewall.gpu
+    - nodes.o7
+  'o8.maas.garaza.io':
+    - users.o8
+    - firewall.gpu
+    - nodes.o8
   'saltdrive':
     - users.saltdrive
     - nodes.saltdrive

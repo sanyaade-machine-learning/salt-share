@@ -37,62 +37,20 @@ base:
      - users
      - python
      - sudo
-  'ocean':
-     - common
-     - devel
-     - fstab
-     - groups
-     - users
-     - hosts
-     - sudo
-     - python
-     - firewall
-     - docker
-  'd3':
-     - common
-     - groups
-     - users
-     - sudo
-     - firewall
+  'o1.maas.garaza.io':
+     - gpu
+  'o2.maas.garaza.io':
+     - gpu
+  'o3.maas.garaza.io':
+     - gpu
+  'o4.maas.garaza.io':
+     - gpu
   'd4.maas.garaza.io':
-     - common
-     - devel
-     - fstab
-     - groups
-     - users
-     - hosts
-     - sudo
-     - python
-     - firewall
-     - docker
+     - cpu
   'd5.maas.garaza.io':
-     - common
-     - devel
-     - fstab
-     - groups
-     - users
-     - hosts
-     - sudo
-     - python
-     - firewall
-     - docker
-  'd9.maas.garaza.io':
-     - common
-     - users
-     - hosts
-     - sudo
-     - firewall
+     - cpu
   'd12.maas.garaza.io':
-     - common
-     - devel
-     - fstab
-     - groups
-     - users
-     - hosts
-     - sudo
-     - python
-     - firewall
-     - docker
+     - cpu
   'ialog':
      - groups
      - users
@@ -104,26 +62,72 @@ base:
      - sudo
      - hosts
   'mac1':
-     - groups
-     - users
-     - firewall
+    - groups
+    - users
+    - firewall
+    - iacluster
   'mac2':
-     - groups
-     - users
-     - firewall
+    - groups
+    - users
+    - firewall
+    - iacluster
   'mac3':
-     - groups
-     - users
-     - firewall
+    - groups
+    - users
+    - firewall
+    - iacluster
   'mac4':
-     - groups
-     - users
-     - firewall
+    - groups
+    - users
+    - firewall
+    - iacluster
   'mac5':
-     - groups
-     - users
-     - firewall
+    - groups
+    - users
+    - firewall
+    - iacluster
   'mac6':
-     - groups
-     - users
-     - firewall
+    - groups
+    - users
+    - firewall
+    - iacluster 
+  'd3':
+    - groups
+    - users
+    - sudo
+    - firewall
+    - iacluster
+  'd9.maas.garaza.io':
+    - groups
+    - users
+    - sudo
+    - firewall
+    - iacluster
+  'hyperion':
+    - groups
+    - users
+    - sudo 
+    - firewall
+    - iacluster
+    - cuda
+    - docker
+    - nvidiadocker
+    - kubernetes
+  'titan.maas':
+    - groups
+    - users
+    - sudo
+    - firewall
+    - iacluster
+    - cuda
+    - docker
+    - nvidiadocker
+    - kubernetes
+  'o5.maas.garaza.io':
+     - gpu
+  'o6.maas.garaza.io':
+     - gpu
+  'o7.maas.garaza.io':
+     - gpu
+  'o8.maas.garaza.io':
+     - gpu

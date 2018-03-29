@@ -3,7 +3,7 @@ uid,uname,fullname,groups,email,valid
 2001,tomazc,"Tomaz Curk","docker",tomaz.curk@fri.uni-lj.si,
 2002,niko,"Niko Colneric","docker",niko.colneric@fri.uni-lj.si,
 2003,thocevar,"Tomaz Hocevar",,tomaz.hocevar@fri.uni-lj.si,
-2004,bzupan,"Blaz Zupan",,blaz.zupan@fri.uni-lj.si,
+2004,bzupan,"Blaz Zupan","docker",blaz.zupan@fri.uni-lj.si,
 2005,martins,"Martin Strazar","docker",martin.strazar@fri.uni-lj.si,
 2006,rgomiscek,"Rok Gomiscek",,rok.gomiscek@fri.uni-lj.si,
 2007,anze,"Anze Staric",,anze.staric@fri.uni-lj.si,
@@ -11,7 +11,7 @@ uid,uname,fullname,groups,email,valid
 2009,mtoplak,"Marko Toplak",,marko.toplak@fri.uni-lj.si,
 2010,jkernc,"Jernej Kernc",,kerncece@gmail.com,
 2011,apretnar,"Ajda Pretnar",,ajda.pretnar@fri.uni-lj.si,
-2012,primoz,"Primoz Godec","docker",p.godec9@gmail.com,2017-12-30
+2012,primoz,"Primoz Godec","docker",p.godec9@gmail.com,
 2013,mpancur,"Matjaz Pancur","docker",matjaz.pancur@fri.uni-lj.si,
 2020,teja,"Teja Rostan",,,2017-06-30
 2021,nejc,"Nejc Ilenic","kaggle,docker",,2017-12-30
@@ -25,3 +25,4 @@ uid,uname,fullname,groups,email,valid
 2030,matej,"Matej Kopar",,matej@kopar.si,2017-06-30
 2031,tomi,"Tomislav Slijepcevic",,ts2287@student.uni-lj.si,2017-12-30
 2032,mcordioli,"Mattia Cordioli",,mattia.cordioli01@universitadipavia.it,2018-06-30
+2033,aarmacki,"Aleksandar Armacki","docker",aleksandar.armacki@gmail.com,2018-07-31

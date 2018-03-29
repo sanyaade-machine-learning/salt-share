@@ -1,4 +1,9 @@
 users:
+  aarmacki:
+    fullname: Aleksandar Armacki
+    groups:
+    - docker
+    uid: 2033
   acopar:
     fullname: Andrej Copar
     groups:
@@ -12,6 +17,8 @@ users:
     uid: 2011
   bzupan:
     fullname: Blaz Zupan
+    groups:
+    - docker
     uid: 2004
   jkernc:
     fullname: Jernej Kernc
@@ -46,6 +53,11 @@ users:
     - kaggle
     - docker
     uid: 2023
+  primoz:
+    fullname: Primoz Godec
+    groups:
+    - docker
+    uid: 2012
   rgomiscek:
     fullname: Rok Gomiscek
     uid: 2006
