@@ -1,12 +1,6 @@
 server_users:
 - acopar
-- niko
-- thocevar
-- nejc
-- ppolicar
 - primoz
-- mcordioli
-- tomi
-- apretnar
+- mpancur
 sudo_users:
 - acopar

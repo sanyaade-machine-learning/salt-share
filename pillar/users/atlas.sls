@@ -14,7 +14,6 @@ server_users:
 - jsteblaj
 - primoz
 - mcordioli
-- tomi
 - aarmacki
 sudo_users:
 - acopar

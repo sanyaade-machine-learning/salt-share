@@ -16,7 +16,7 @@ base:
     - nodes.d5
   'd9.maas.garaza.io':
     - users.d9
-    - firewall.default
+    - firewall.d9
     - nodes.d9
   'd12.maas.garaza.io':
     - users.d12
@@ -26,10 +26,6 @@ base:
     - users.proteus
     - nodes.proteus
     - firewall.default
-  'titan':
-    - users.titan
-    - firewall.default
-    - nodes.titan
   'atlas':
     - users.atlas
     - firewall.default
@@ -80,7 +76,6 @@ base:
   'iajump':
     - users.iajump
     - nodes.iajump
-    - nodes.iajump
   'mac1':
     - firewall.mac1
     - users.mac
@@ -105,3 +100,11 @@ base:
     - firewall.mac
     - users.mac
     - nodes.mac6
+  'titan.maas':
+    - firewall.titan
+    - users.titan
+    - nodes.titan
+  'hyperion':
+    - firewall.hyperion
+    - users.hyperion
+    - nodes.hyperion

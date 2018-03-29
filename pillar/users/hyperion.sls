@@ -1,6 +1,6 @@
 server_users:
 - acopar
-- nejc
+- primoz
 - mpancur
 sudo_users:
 - acopar

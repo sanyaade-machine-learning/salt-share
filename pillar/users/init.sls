@@ -69,3 +69,6 @@ users:
     groups:
     - docker
     uid: 2001
+  tomi:
+    fullname: Tomislav Slijepcevic
+    uid: 2031

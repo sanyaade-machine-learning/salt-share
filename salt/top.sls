@@ -1,66 +1,44 @@
 base:
+  '*':
+    - common
   'saltdrive':
-     - common
-     - hosts
-     - firewall 
-     - groups
-     - users
+    - hosts
+    - firewall 
+    - groups
+    - users
   'proteus':
-     - common
-     - devel
-     - fstab
-     - groups
-     - users
-     - hosts
-     - python
-     - firewall
-     - docker
-     - sudo
-  'titan':
-     - common
-     - devel
-     - fstab
-     - groups
-     - users
-     - hosts
-     - sudo
-     - python
-     - firewall
-     - docker
-     - cuda
-#     - cudnn
-  'atlas':
-     - common
-     - devel
-     - fstab
-     - groups
-     - users
-     - python
-     - sudo
+    - cpu
   'o1.maas.garaza.io':
-     - gpu
+    - gpu
   'o2.maas.garaza.io':
-     - gpu
+    - gpu
   'o3.maas.garaza.io':
-     - gpu
+    - gpu
   'o4.maas.garaza.io':
-     - gpu
+    - gpu
   'd4.maas.garaza.io':
-     - cpu
+    - cpu
   'd5.maas.garaza.io':
-     - cpu
+    - cpu
   'd12.maas.garaza.io':
-     - cpu
+    - cpu
+  'atlas':
+    - devel
+    - fstab
+    - groups
+    - users
+    - python
+    - sudo
   'ialog':
-     - groups
-     - users
-     - sudo
+    - groups
+    - users
+    - sudo
+    - python
   'iajump':
-     - common
-     - groups
-     - users
-     - sudo
-     - hosts
+    - groups
+    - users
+    - sudo
+    - hosts
   'mac1':
     - groups
     - users
@@ -124,10 +102,10 @@ base:
     - nvidiadocker
     - kubernetes
   'o5.maas.garaza.io':
-     - gpu
+    - gpu
   'o6.maas.garaza.io':
-     - gpu
+    - gpu
   'o7.maas.garaza.io':
-     - gpu
+    - gpu
   'o8.maas.garaza.io':
-     - gpu
+    - gpu
