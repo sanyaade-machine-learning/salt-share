@@ -1,0 +1,21 @@
+*filter
+
+:INPUT ACCEPT
+:FORWARD ACCEPT
+:OUTPUT ACCEPT
+
+-I INPUT -p tcp --src 10.96.0.0/12 -j ACCEPT
+-I INPUT -p tcp --src 172.16.0.0/16 -j ACCEPT
+-I INPUT -p tcp --src 88.200.23.0/26 -j ACCEPT
+
+-I INPUT -m tcp -p tcp --dport 443 -j ACCEPT
+-I INPUT -m tcp -p tcp --dport 80 -j ACCEPT
+-I INPUT -m tcp -p tcp --dport 22 -j ACCEPT
+
+-I INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+-I INPUT -m icmp -p icmp --icmp-type 8 -j ACCEPT
+
+-A INPUT -i eno1 -j DROP
+-A FORWARD -i eno1 -j DROP
+
+COMMIT
