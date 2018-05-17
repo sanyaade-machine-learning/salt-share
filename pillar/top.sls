@@ -30,10 +30,6 @@ base:
     - users.atlas
     - firewall.default
     - nodes.atlas
-  'ocean.maas.garaza.io':
-    - users.ocean
-    - firewall.default
-    - nodes.ocean
   'o1.maas.garaza.io':
     - users.o1
     - firewall.gpu

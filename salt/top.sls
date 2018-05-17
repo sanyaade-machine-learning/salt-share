@@ -58,64 +58,22 @@ base:
     - sudo
     - hosts
   'mac1':
-    - groups
-    - users
-    - firewall
-    - iacluster
+    - iacpu
   'mac2':
-    - groups
-    - users
-    - firewall
-    - iacluster
+    - iacpu
   'mac3':
-    - groups
-    - users
-    - firewall
-    - iacluster
+    - iacpu
   'mac4':
-    - groups
-    - users
-    - firewall
-    - iacluster
+    - iacpu
   'mac5':
-    - groups
-    - users
-    - firewall
-    - iacluster
+    - iacpu
   'mac6':
-    - groups
-    - users
-    - firewall
-    - iacluster 
+    - iacpu
   'd3':
-    - groups
-    - users
-    - sudo
-    - firewall
-    - iacluster
+    - iacpu
   'd9.maas.garaza.io':
-    - groups
-    - users
-    - sudo
-    - firewall
-    - iacluster
+    - iacpu
   'hyperion':
-    - groups
-    - users
-    - sudo 
-    - firewall
-    - iacluster
-    - cuda
-    - docker
-    - nvidiadocker
-    - kubernetes
+    - iagpu
   'titan.maas':
-    - groups
-    - users
-    - sudo
-    - firewall
-    - iacluster
-    - cuda
-    - docker
-    - nvidiadocker
-    - kubernetes
+    - iagpu
