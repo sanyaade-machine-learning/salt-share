@@ -66,6 +66,10 @@ base:
     - users.o8
     - firewall.gpu
     - nodes.o8
+  'cloudIDE':
+    - users.cloudIDE
+    - firewall.default
+    - nodes.cloudIDE
   'saltdrive':
     - users.saltdrive
     - nodes.saltdrive

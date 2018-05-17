@@ -1,3 +1,7 @@
+lightdm:
+  service.dead:
+    - enable: False
+
 copy_rclocal_srv:
   file.managed:
     - name: /etc/systemd/system/rc-local.service

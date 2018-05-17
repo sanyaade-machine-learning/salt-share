@@ -16,6 +16,14 @@ base:
     - gpu
   'o4.maas.garaza.io':
     - gpu
+  'o5.maas.garaza.io':
+    - gpu
+  'o6.maas.garaza.io':
+    - gpu
+  'o7.maas.garaza.io':
+    - gpu
+  'o8.maas.garaza.io':
+    - gpu
   'd4.maas.garaza.io':
     - cpu
   'd5.maas.garaza.io':
@@ -29,6 +37,16 @@ base:
     - users
     - python
     - sudo
+  'cloudIDE':
+    - common
+    - devel
+    - fstab
+    - groups
+    - users
+    - hosts
+    - sudo
+    - python
+    - firewall
   'ialog':
     - groups
     - users
@@ -101,11 +119,3 @@ base:
     - docker
     - nvidiadocker
     - kubernetes
-  'o5.maas.garaza.io':
-    - gpu
-  'o6.maas.garaza.io':
-    - gpu
-  'o7.maas.garaza.io':
-    - gpu
-  'o8.maas.garaza.io':
-    - gpu

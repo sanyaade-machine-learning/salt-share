@@ -3,6 +3,7 @@ server_users:
 - tomazc
 - martins
 - ppolicar
+- aarmacki
 sudo_users:
 - acopar
 - tomazc

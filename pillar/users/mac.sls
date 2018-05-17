@@ -5,3 +5,4 @@ server_users:
 sudo_users:
 - acopar
 - mpancur
+- primoz

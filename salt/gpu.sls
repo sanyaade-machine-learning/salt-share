@@ -9,4 +9,7 @@ include:
   - python
   - firewall
   - docker
-  - cuda
+  - rclocal
+  - cuda9
+  - nvidiadocker
+  - cudnn

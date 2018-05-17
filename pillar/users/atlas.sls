@@ -1,6 +1,5 @@
 server_users:
 - acopar
-- niko
 - thocevar
 - bzupan
 - martins
@@ -13,8 +12,9 @@ server_users:
 - adolenc
 - jsteblaj
 - primoz
-- mcordioli
+- apretnar
 - aarmacki
+- bnovak
 sudo_users:
 - acopar
-- niko
+- primoz
