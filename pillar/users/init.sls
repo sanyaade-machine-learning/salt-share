@@ -15,6 +15,11 @@ users:
   apretnar:
     fullname: Ajda Pretnar
     uid: 2011
+  asadikov:
+    fullname: Aleksander Sadikov
+    groups:
+    - docker
+    uid: 2015
   bnovak:
     fullname: Benjamin Novak
     groups:
@@ -25,9 +30,19 @@ users:
     groups:
     - docker
     uid: 2004
+  jaka:
+    fullname: Jaka Kokosar
+    groups:
+    - docker
+    uid: 2016
   jkernc:
     fullname: Jernej Kernc
     uid: 2010
+  jzabkar:
+    fullname: Jure Zabkar
+    groups:
+    - docker
+    uid: 2014
   lan:
     fullname: Lan Zagar
     uid: 2008
@@ -441,8 +456,23 @@ users:
   thocevar:
     fullname: Tomaz Hocevar
     uid: 2003
+  tlazar:
+    fullname: Timotej Lazar
+    groups:
+    - docker
+    uid: 2035
+  toblak:
+    fullname: Tim Oblak
+    groups:
+    - docker
+    uid: 2037
   tomazc:
     fullname: Tomaz Curk
     groups:
     - docker
     uid: 2001
+  zfranko:
+    fullname: Ziga Franko
+    groups:
+    - docker
+    uid: 2036

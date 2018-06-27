@@ -3,6 +3,7 @@ server_users:
 - bzupan
 - primoz
 - mpancur
+- aarmacki
 - s63120181
 - s63130296
 - s63120198

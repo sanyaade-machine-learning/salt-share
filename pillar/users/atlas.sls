@@ -3,18 +3,11 @@ server_users:
 - thocevar
 - bzupan
 - martins
-- rgomiscek
-- nejc
-- jgrabnar
 - ppolicar
-- tsmole
-- ajugo
-- adolenc
-- jsteblaj
 - primoz
-- apretnar
 - aarmacki
 - bnovak
+- niko
 sudo_users:
 - acopar
 - primoz

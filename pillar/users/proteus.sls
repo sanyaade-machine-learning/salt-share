@@ -1,12 +1,10 @@
 server_users:
 - acopar
-- ppolicar
 - primoz
-- mcordioli
-- jkernc
 - apretnar
 - aarmacki
 - bnovak
+- jaka
 sudo_users:
 - acopar
 - apretnar

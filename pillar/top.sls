@@ -30,6 +30,10 @@ base:
     - users.atlas
     - firewall.default
     - nodes.atlas
+  'helios.maas.garaza.io':
+    - users.helios
+    - firewall.helios
+    - nodes.helios
   'o1.maas.garaza.io':
     - users.o1
     - firewall.gpu

@@ -33,6 +33,8 @@
     - recurse:
       - user
       - group
+chmod 700 /home/{{ name }}:
+  cmd.run
 {% if 'nfs' in tags %}
 /nfs/home/{{ name }}:
   file.directory:

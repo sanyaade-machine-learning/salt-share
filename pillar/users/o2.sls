@@ -1,7 +1,9 @@
 server_users:
 - acopar
 - bzupan
+- ppolicar
 - primoz
+- niko
 - s63120181
 - s63130296
 - s63120198

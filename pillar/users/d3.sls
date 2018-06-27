@@ -3,6 +3,7 @@ server_users:
 - tomazc
 - primoz
 - mpancur
+- jaka
 sudo_users:
 - acopar
 - tomazc

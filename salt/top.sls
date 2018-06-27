@@ -30,13 +30,10 @@ base:
     - cpu
   'd12.maas.garaza.io':
     - cpu
+  'helios.maas.garaza.io':
+    - gpu
   'atlas':
-    - devel
-    - fstab
-    - groups
-    - users
-    - python
-    - sudo
+    - gpu
   'cloudIDE':
     - common
     - devel

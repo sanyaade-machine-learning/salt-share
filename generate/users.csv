@@ -13,6 +13,9 @@ uid,uname,fullname,groups,email,valid
 2011,apretnar,"Ajda Pretnar",,ajda.pretnar@fri.uni-lj.si,
 2012,primoz,"Primoz Godec","docker",p.godec9@gmail.com,
 2013,mpancur,"Matjaz Pancur","docker",matjaz.pancur@fri.uni-lj.si,
+2014,jzabkar,"Jure Zabkar","docker",jure.zabkar@fri.uni-lj.si,
+2015,asadikov,"Aleksander Sadikov","docker",aleksander.sadikov@fri.uni-lj.si,
+2016,jaka,"Jaka Kokosar","docker",jaka.kokosar@gmail.com,
 2020,teja,"Teja Rostan",,,2017-06-30
 2021,nejc,"Nejc Ilenic","kaggle,docker",,2017-12-30
 2022,jgrabnar,"Jernej Grabnar","kaggle,docker",,2017-12-30
@@ -27,6 +30,9 @@ uid,uname,fullname,groups,email,valid
 2032,mcordioli,"Mattia Cordioli",,mattia.cordioli01@universitadipavia.it,2018-06-30
 2033,aarmacki,"Aleksandar Armacki","docker",aleksandar.armacki@gmail.com,2018-07-31
 2034,bnovak,"Benjamin Novak","docker",bn5567@student.uni-lj.si,2018-12-31
+2035,tlazar,"Timotej Lazar","docker",timotej.lazar@fri.uni-lj.si,
+2036,zfranko,"Ziga Franko","docker",zf3135@student.uni-lj.si,2018-12-31
+2037,toblak,"Tim Oblak","docker",to1702@student.uni-lj.si,2018-12-31
 2101,s63120181,"63120181","ozp,docker",ba3611@student.uni-lj.si,2018-06-30
 2102,s63130296,"63130296","ozp,docker",ta9588@student.uni-lj.si,2018-06-30
 2103,s63120198,"63120198","ozp,docker",ta6939@student.uni-lj.si,2018-06-30
